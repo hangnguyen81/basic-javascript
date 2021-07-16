@@ -1,2 +1,2 @@
 # basic-javascript
-Learning javscript by building some little apps
+Learning javscript by building some small apps
