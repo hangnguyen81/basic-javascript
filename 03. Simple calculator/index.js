@@ -5,30 +5,27 @@ document.getElementById("num2-el").textContent = num2
 
 let sumEl = document.getElementById('sum-el')
 
-let sum = 0
-let sub = 0
-let div = 0
-let mul = 0
+let result = 0
 
 function add(){
-    sum = num1 + num2
-    sumEl.textContent = 'Sum: ' + sum
+    result = num1 + num2
+    sumEl.textContent = 'Sum: ' + result
 }
 
 function subtract(){
-    sub = num1 - num2
-    sumEl.textContent = 'Subtract: ' + sub
+    result = num1 - num2
+    sumEl.textContent = 'Subtract: ' + result
 }
 
 function divide(){
-    div = num1/num2
-    sumEl.textContent = 'Divide: ' + div
+    result = num1/num2
+    sumEl.textContent = 'Divide: ' + result
     
 }
 
 function multiply(){
-    mul = num1 * num2
-    sumEl.textContent = 'Multiply: ' + mul
+    result = num1 * num2
+    sumEl.textContent = 'Multiply: ' + result
 }
 
 function reset(){
