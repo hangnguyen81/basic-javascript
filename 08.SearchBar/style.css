@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#container{
+    max-width: 500px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #000;
+    text-align: center;
+    padding-bottom: .5em;
+}
+
+#search{
+    background-color:orangered;
+}
+
+label{
+    font-size: 1.25rem;
+    padding: .5em .5em;
+}
+
+input, li{
+    font-size: 1.125rem;
+    line-height: 1.5;
+    padding: .3em .3em;
+    margin: .5em 2em;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+li{
+    background-color: #fff;
+    padding: .5em .5em;
+}
+
