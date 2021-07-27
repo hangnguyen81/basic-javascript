@@ -13,14 +13,22 @@ img{
     margin: 0 auto;
 }
 .carousel-item,
-.carousel-item-hidden{
+.item-hidden{
     display: none;
 }
 
-.carousel-item-visible{
+.item-visible{
     display: block;
     animation: fadeVisiblity 0.75s;
 }
+.text-note{
+    position: absolute;
+    top: 82%;
+    padding: 0 1em;
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.376);
+}
+
 
 .carousel-actions{
     display: flex;
