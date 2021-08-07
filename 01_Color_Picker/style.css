@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-size: 1.25rem;
+    font-family: Haettenschweiler, sans-serif;
+    letter-spacing: 1px;
+}
+
+#container{
+    margin: auto;
+    max-width: 1000px;
+    width: 100%;
+
+}
+
+#color-palette{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 1px;
+}
+
+.my-color{
+    padding: 1em;
+}
